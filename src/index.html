@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Subtitle Generator</title>
+	<link rel="stylesheet" href="./dependencies/css/bootstrap.min.css">
+</head>
+<body>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-12'>
+				<h1>Video Caption Creator</h1>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-12 video-main'></div>
+			<div class='col-12'>
+				<div class='row menu-section'>
+					<div class='col-12 menu-video-src'>
+						<p>Import Video</p>
+						<input type='file' class='video-src-input'>
+						<button class='video-src-btn'>Import Video</button>
+					</div>
+					<div class='col-12 menu-caption-src'>
+						<p>Import Captions</p>
+						<input type='file' class='sub-src-input'>
+						<button class='sub-src-btn'>Import Captions</button>
+					</div>
+					<div class='col-12 menu-json-src'>
+						<p>Import JSON</p>
+						<input type='file' class='json-src-input'>
+						<button class='json-src-btn'>Import JSON</button>
+					</div>
+				</div>
+			</div>
+			<div class='col-12 all-subtitles-container'></div>
+			<div class='col-12'>
+				<div class='col-12 menu-section'>
+					<button class='add-new-subtitle'>Add New Caption</button>
+					<button class='export-srt-subtitles'>Export SRT File</button>
+					<button class='export-vtt-subtitles'>Export VTT File</button>
+					<button class='export-json'>Export JSON File</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./bundle.js"></script>
+</body>
+</html>
+
